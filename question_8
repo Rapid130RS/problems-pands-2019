@@ -1,17 +1,27 @@
 Write a program that outputs today’s date and time in the format “Monday, January 10th 2019 at 1:15pm”.
 
 
-import datetime     #import datetime module
-day = str(datetime.datetime.now())   # define today, in a string
-print(datetime.datetime.now())
-
-
-
-
-
-#date_string = today.strftime('%A, %B #, %Y')
-#result = datetime.datetime.strftime(datetime.datetime.day(), 'Today is %A' ', ' '%d %B %Y' ' at ' '%H:%M')
-#print(result)
+import datetime, time
+today = datetime.date.today() 
+if today.day >= 4 and today.day <= 20:
+   print(today.day,"th")
+elif today.day >= 24 and today.day <= 30:
+   sx = "th"
+   #print(today.day,"th")
+elif today.day == 2 or today.day == 22:
+    sx = "nd"
+    #print(today.day,"nd")
+elif today.day == 1 or today.day == 21 or today.day == 31:
+   sx = "st"
+   #print(today.day,"st")
+else:
+   sx = "rd"
+   #print(today.day,"rd")
+#print ("Today is the",today.day)
+#print ("Today is the",today.day, sx)
+#print ("Today is the "+ sx)
+print ("Today is "+str(today.strftime('%a '))+str(today.day)+str(sx)+(today.strftime(' %a')))
+#print (today.strftime('Today is the %a %d')+sx), (today.strftime('%a'))                  
 
           
 # Resources 
