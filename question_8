@@ -1,1 +1,18 @@
 Write a program that outputs today’s date and time in the format “Monday, January 10th 2019 at 1:15pm”.
+
+
+import datetime     #import datetime module
+day = str(datetime.datetime.now())   # define today, in a string
+print(datetime.datetime.now())
+
+
+
+
+
+#date_string = today.strftime('%A, %B #, %Y')
+#result = datetime.datetime.strftime(datetime.datetime.day(), 'Today is %A' ', ' '%d %B %Y' ' at ' '%H:%M')
+#print(result)
+
+          
+# Resources 
+# https://stackoverflow.com/questions/415511/how-to-get-the-current-time-in-python
