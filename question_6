@@ -1,1 +1,5 @@
-Write a program that takes a user input string and outputs every second word.
+# Write a program that takes a user input string and outputs every second word.
+
+text = input ("Please enter a sentence: ") # take a sting input   
+list = text.split(" ") #create a list of words
+print(' '.join(map(str, list[::2]))) # join the list items, print a string of every second item using the list attribute  
