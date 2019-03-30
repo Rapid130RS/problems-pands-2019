@@ -1,1 +1,9 @@
 Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.
+
+# take a positive floating point number as input from the user,
+# output it as an approximate sqrt 
+import math  # math module is needed for the sqrt function 
+from decimal import Decimal # decimal function for rounding
+num = float(input("Please enter a floating point number: "))
+print("The square root of ", num, " is ", round(math.sqrt(num),2))  
+
