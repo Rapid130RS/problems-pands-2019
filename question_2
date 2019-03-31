@@ -1,1 +1,10 @@
-Write a program that outputs whether or not today is a day that begins with the letter T.
+# Write a program that outputs whether or not today is a day that begins with the letter T.
+
+import datetime
+date = str(datetime.datetime.now())
+print(date)
+print(day)
+if date == 3:
+   print("yes")
+else:
+   print("no")
