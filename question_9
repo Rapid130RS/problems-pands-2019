@@ -11,7 +11,7 @@
 
 f=open("moby-dick.txt", "r")    # declare a var 'f' t0 open the file in read mode
 fl = f.readlines()              # Use readlines to read the file ('f') line by line      
-count = 0                       # 
+count = 0                        
 for line in fl:
   count+=1
   if count %2 == 0:             # use modulo to ignore every 2 line, starting at line 0
