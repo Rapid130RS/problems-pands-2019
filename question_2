@@ -8,3 +8,7 @@ if date == 3:
    print("yes")
 else:
    print("no")
+
+
+# https://docs.python.org/3/library/datetime.html
+# 
