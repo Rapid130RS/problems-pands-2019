@@ -1,14 +1,17 @@
 # Write a program that outputs whether or not today is a day that begins with the letter T.
 
-import datetime
-date = str(datetime.datetime.now())
-print(date)
-print(day)
-if date == 3:
+import datetime   #import the datetime module to use the date object
+today = datetime.datetime.today().weekday()     #return the current local date and return the weekday as a number; Mon = 0 to Sun = 6. 
+if today == 6:    
    print("yes")
 else:
    print("no")
+    
+# Approach
+# I reviewed the python library, looking for some function that returned weekday
+# date.weekday() returns an int value for day Mon=0 to Sun=6
+# I created an else/if to output if today begins with a T.
 
-
+# Resources
 # https://docs.python.org/3/library/datetime.html
-# 
+# https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
