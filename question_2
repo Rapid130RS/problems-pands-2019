@@ -2,11 +2,11 @@
 
 import datetime   #import the datetime module to use the date object
 today = datetime.datetime.today().weekday()     #return the current local date and return the weekday as a number; Mon = 0 to Sun = 6. 
-if today == 6:    
-   print("yes")
+if today ==1 or today == 3:   # 1 and 3 represent Tuesday and Thursday 
+   print("Yes - today begins with a T")   
 else:
-   print("no")
-    
+   print("No - today does not begin with a T")
+  
 # Approach
 # I reviewed the python library, looking for some function that returned weekday
 # date.weekday() returns an int value for day Mon=0 to Sun=6
