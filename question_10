@@ -1,1 +1,5 @@
 Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].
+
+# Resources
+# https://stackoverflow.com/questions/55339536/making-a-graph-using-x-x2-and-2x
+# https://matplotlib.org/1.4.2/users/pyplot_tutorial.html
