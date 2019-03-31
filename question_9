@@ -21,5 +21,7 @@ for line in fl:
 # Resources
 # https://www.guru99.com/reading-and-writing-files-in-python.html
 # https://www.pythonforbeginners.com/system/python-sys-argv
+# https://www.youtube.com/watch?v=jhki0o54_xY
 # https://cmdlinetips.com/2012/09/three-ways-to-write-text-to-a-file-in-python/
+# https://stackoverflow.com/questions/18047879/opening-files-with-python
 # https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
