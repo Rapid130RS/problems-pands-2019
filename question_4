@@ -24,3 +24,7 @@ while number > 1:
     break 
 else:
     print("No, that is negative ")
+
+
+# Resources
+# https://www.pythonforbeginners.com/error-handling/python-try-and-except
