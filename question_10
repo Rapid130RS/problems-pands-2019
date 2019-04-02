@@ -4,16 +4,18 @@ import matplotlib.pyplot as plt       # use pl as shorthand for the matplotlib
 import numpy as np                    # use np as shorthand for numpy
 
 x=np.arange(0, 4)                     # create a ndarray object from 0-3
+
 y1=x                                  # assign values for the functions to be plotted
 y2=x*x
 y3=2*x 
-plt.plot(y1)
-plt.plot(y2)
-plt.plot(y3)                          # plot the functions
-plt.title("Question 10")              # formatting and labels
+plt.plot((y1),'-or',)                 # plot the functions, with some formatting
+plt.plot((y2),'--mo')
+plt.plot((y3),':bs')
+plt.title("Question 10")              # format the chart
 plt.xlabel("X-Axis")
 plt.ylabel("Y-Axis")
 plt.show()
+
 
 # Resources
 # https://uk.mathworks.com/help/matlab/ref/linespec.html
