@@ -5,20 +5,19 @@ Write a program that displays a plot of the functions x, x2 and 2x in the range 
 import matplotlib.pyplot as plt       # use pl as shorthand for the matplotlib
 import numpy as np                    # use np as shorthand for numpy
 
-x=np.arange([0][4])
-a = X 
-b = X*X
-c = 2*X 
-plt.plot([0,1,2,3,4,5,6,7,8],[0,1,2,3,4,5,6,7,8])
-plt.title("Test")
+x=np.arange(0, 4)                     # create a ndarray object from 0-3
+a1=x                                  # assign values for the functions to be plotted
+a2=x*x
+a3=2*x 
+plt.plot(a1,a2,a3)                    # plot the functions
+plt.title("Question 10")              # formatting and labels
 plt.xlabel("X-Axis")
 plt.ylabel("Y-Axis")
 plt.show()
 
-
-
-
 # Resources
+# https://uk.mathworks.com/help/matlab/ref/linespec.html
+# http://infohost.nmt.edu/tcc/help/pubs/lang/numpy/web/arange.html
 # https://docs.scipy.org/doc/numpy/reference/generated/numpy.arange.html
 # https://www.khanacademy.org/math/algebra/algebra-functions/domain-and-range/v/range-of-a-function
 # https://stackoverflow.com/questions/55339536/making-a-graph-using-x-x2-and-2x
